@@ -1,0 +1,9 @@
+"Phrases"
+{
+  "alert_custom_files"
+  {
+    "en"    "english"
+    "pt"    "portuguese"
+    "es"    "spanish"
+  }
+}
