@@ -48,12 +48,12 @@ public Action HudBlinkTimer(Handle timer, int client)
     {
         // Exibir o HUD quando o estado for verdadeiro
         SetHudTextParams(-1.0, 0.6, 99999.0, 254, 221, 0, 0, 0, 0.0, 0.0, 0.0);
-        ShowHudText(client, 0, "%t", "alert_custom_files");
+        ShowHudText(client, 0, "%t", "hud_translation");
     }
     else
     {
         SetHudTextParams(-1.0, 0.6, 99999.0, 255, 0, 0, 0, 0, 0.0, 0.0, 0.0);
-        ShowHudText(client, 0, "%t", "alert_custom_files");
+        ShowHudText(client, 0, "%t", "hud_translation");
     }
 
     return Plugin_Continue;  // Continuar o timer

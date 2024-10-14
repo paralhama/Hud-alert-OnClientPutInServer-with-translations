@@ -1,6 +1,6 @@
 "Phrases"
 {
-  "alert_custom_files"
+  "hud_translation"
   {
     "en"    "english"
     "pt"    "portuguese"
